@@ -14,19 +14,23 @@ int main(int argc, char *argv[])
         switch(k) {
         case 1:
             system("cls");
-            cout << "In the next update...";
+            cout << "In the next update..." << endl;
+            system("pause");
             break;
         case 2:
             system("cls");
-            cout << "In the next update...";
+            cout << "In the next update..." << endl;
+            system("pause");
             break;
         case 3:
             system("cls");
-            cout << "In the next update...";
+            cout << "In the next update..." << endl;
+            system("pause");
             break;
         case 4:
             system("cls");
-            cout << "In the next update...";
+            cout << "In the next update..." << endl;
+            system("pause");
             break;
         case 0:
             bexit = true;
