@@ -5,7 +5,9 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     int k;
+    bool bexit = false;
 
+    while (!bexit) {
         system("cls");
         cout << "Select the desired item (specify number):\n1) Summation;\n2) Subtraction;\n3) Multiplication;\n4) Division;\n0)Exit\n";
         cin >> k;
@@ -27,7 +29,9 @@ int main(int argc, char *argv[])
             cout << "In the next update...";
             break;
         case 0:
+            bexit = true;
             break;
         }
+    }
     return 0;
 }
