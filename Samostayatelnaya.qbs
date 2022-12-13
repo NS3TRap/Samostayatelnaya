@@ -3,7 +3,9 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "main.cpp"
+        "funcs.cpp",
+        "funcs.h",
+        "main.cpp",
     ]
 
     Group {     // Properties for the produced executable
