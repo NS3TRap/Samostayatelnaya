@@ -33,12 +33,20 @@ int main()
             break;
         case 3:
             system("cls");
-            cout << "In the next update..." << endl;
+            cout << "Enter the first number:\n";
+            cin >> a;
+            cout << "Enter the second number:\n";
+            cin >> b;
+            cout << Mul(a, b) << endl;
             system("pause");
             break;
         case 4:
             system("cls");
-            cout << "In the next update..." << endl;
+            cout << "Enter the first number:\n";
+            cin >> a;
+            cout << "Enter the second number:\n";
+            cin >> b;
+            cout << Div(a, b) << endl;
             system("pause");
             break;
         case 0:
