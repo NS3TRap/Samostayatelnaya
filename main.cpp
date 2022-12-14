@@ -2,10 +2,11 @@
 #include "funcs.h"
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
     int k;
     bool bexit = false;
+    double a,b;
 
     while (!bexit) {
         system("cls");
@@ -14,12 +15,20 @@ int main(int argc, char *argv[])
         switch(k) {
         case 1:
             system("cls");
-            cout << "In the next update..." << endl;
+            cout << "Enter the first number:\n";
+            cin >> a;
+            cout << "Enter the second number:\n";
+            cin >> b;
+            cout << Sum(a, b) << endl;
             system("pause");
             break;
         case 2:
             system("cls");
-            cout << "In the next update..." << endl;
+            cout << "Enter the first number:\n";
+            cin >> a;
+            cout << "Enter the second number:\n";
+            cin >> b;
+            cout << Sub(a, b) << endl;
             system("pause");
             break;
         case 3:
